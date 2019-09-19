@@ -1,0 +1,31 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/bg.jpg);
+  position: relative;
+}
+.login .loginFo {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin-left: 50%;
+  left: -200px;
+  margin-top: 250px;
+}
+.login .loginFo .login-form #components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+.login
+  .loginFo
+  .login-form
+  #components-form-demo-normal-login
+  .login-form-forgot {
+  float: right;
+}
+.login
+  .loginFo
+  .login-form
+  #components-form-demo-normal-login
+  .login-form-button {
+  width: 100%;
+}

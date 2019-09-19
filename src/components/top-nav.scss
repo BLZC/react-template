@@ -1,0 +1,72 @@
+.ant-layout-header {
+
+  height: 80px;
+
+  .trigger {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .header-top {
+    height: 40px;
+    font-size: 15px;
+    text-align: right;
+    line-height: 40px;
+    padding-right: 20px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.65);
+
+    span {
+      margin-right: 10px;
+    }
+  }
+
+  .header-bottom {
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+
+    .header-bottom-left {
+      width: 25%;
+      text-align: center;
+      font-size: 18px;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: '';
+        border-top: solid 20px #fff;
+        border-left: solid 20px transparent;
+        border-bottom: solid 20px transparent;
+        border-right: solid 20px transparent;
+        right: 50%;
+        transform: translate(50%);
+        margin-top: 40px;
+      }
+    }
+
+    .header-bottom-right {
+      text-align: right;
+      margin-left: 25%;
+      width: 75%;
+      padding-right: 20px;
+
+      .span-time {
+        margin-right: 15px;
+        color: blue;
+      }
+
+      img {
+        width: 30px;
+        height: 20px;
+        margin-right: 15px;
+      }
+
+      .span-weather {
+        color: red;
+      }
+    }
+  }
+}
